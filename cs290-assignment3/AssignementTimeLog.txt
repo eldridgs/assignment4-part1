@@ -1,0 +1,15 @@
+1/29/15
+12:08p-1:27p: Download/read assignment
+1:59p-2:10p: trying to get github folders to not be greyed out
+2:10p-3:20p: variables.js and functions.js, finish except git parse log
+
+1/31/15
+2:34p-3:33p: parsegit function, still getting undefined results
+4:18-5:10: parsegit all figured out except date
+
+2/1/15
+12:52-2:32: parse gitlog function and start objects.js
+2:55-3:55: message log instance test all passing except 5 and 6
+5:30-5:56: more work on message log 
+6:25-7:07: finish objects
+9:30-11:30: assignment 3 part 2
