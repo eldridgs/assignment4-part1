@@ -1,0 +1,5 @@
+Assignment 4 Part 1 log
+
+Start: Wed, 4 Feb 2015 20:10:00 -0800
+End: Wed, 4 Feb 20155 21:00:00 -0800
+Tasks: During this period I set up a basic .php file and made a .html file with a form to see if I could link them together.  After 50 minutes I could not, so I posted on the discussion page for the class.
