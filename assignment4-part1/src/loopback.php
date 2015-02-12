@@ -10,13 +10,22 @@
 	 $req_type = $_SERVER['REQUEST_METHOD'];
 	 if ( $req_type == 'POST' ) {
 	   $json = json_encode($_POST);
-	   echo '{"Type":"[POST]","parameters":' . $json;
-	  // echo '}';
+	   if ( empty($_POST) ) {
+	     echo '{"Type":"[POST]", "parameters":null}';
+	   }
+	   else {
+	     echo '{"Type":"[POST]","parameters":' . $json;
+	     echo '}';
 	   }
 	 }
 	 else {
-	   foreach ( $_GET as $key => $value) {
-	     echo 'GET';
+	   $json = json_encode($_GET);
+	   if ( empty($_GET) ) {
+	     echo '{"Type":"[GET]", "parameters":null}';
+	   }
+	   else {
+	     echo '{"Type":"[POST]","parameters":' . $json;
+	     echo '}';
 	   }
 	 }
 	 ?>
