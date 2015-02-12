@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Loopback Forms</title>
+  </head>
+  <body>
+    <h1>Loopback Testing</h1>
+<form action="loopback.php" method="post">
+    <table border="1" class="style2">
+      <caption> POST </caption>
+      <tr>
+        <td><span> Your Name: </span>
+        <input type="text" name="user_name">
+      <tr>
+        <td><span> Age: </span>
+        <input type="number" name="user_age"> 
+      <tr>
+        <td><span> Password here: </span>
+        <input type="password" name="password_input"> 
+      <tr>
+        <td><span> Select one:</span><br><br>
+        <input type="radio" name="toothpaste" value="mint"> Mint <br><br>
+        <input type="radio" name="toothpaste" value="gum"> Bubble Gum <br><br>
+        <input type="radio" name="toothpaste" value="grape"> Grape <br><br>
+      <tr>
+	    <td><span> Which do you have? </span><br><br>
+		  <input type="checkbox" name="vehicle" value="bike">Bike
+		  <input type="checkbox" name="vehicle" value="car">Car
+		  <input type="checkbox" name="vehicle" value="pony">Pony
+		  <input type="checkbox" name="vehicle" value="feet">My Feet Walk<br><br>
+		  <input type="submit" value="Submit">
+    </table>
+    </form>
+	<br><br><br>
+    <form action="loopback.php" method="get">
+    <table border="1" class="style2">
+      <caption> GET </caption>
+      <tr>
+      <td><span> Text here: </span>
+        <input type="text" name="text_input">
+      <tr>
+        <td><span> Number here: </span>
+        <input type="number" name="numerical_input">
+      <tr>
+        <td><span> Password here: </span>
+        <input type="password" name="password_input">
+      <tr>
+        <td><span> Select between:</span><br><br>
+        <input type="radio" name="candy" value="Snickers"> Snickers <br><br>
+        <input type="radio" name="candy" value="Skittles"> Skittles <br><br>
+        <input type="radio" name="candy" value="Mentos"> Mentos <br><br>
+	  <tr>
+	    <td><span> Which do you have? </span><br><br>
+		  <input type="checkbox" name="disease" value="diabetes">Diabetes
+		  <input type="checkbox" name="disease" value="aids">AIDS
+		  <input type="checkbox" name="disease" value="cancer">Cancer
+		  <input type="checkbox" name="disease" value="death">Death<br><br>
+		  <input type="submit" value="Submit">
+    </table>
+    </form>
