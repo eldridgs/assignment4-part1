@@ -32,6 +32,29 @@
 	    echo 'Minimum multiplicand larger than maximum.</br>';
 	  if ( $min_multiplier > $max_multiplier )
 	    echo 'Minimum multiplier larger than maximum.</br>';
+      if ( $min_multiplicand < $max_multiplicand && $min_multiplier < $max_multiplier ) {
+	    echo '<table border="1">';
+		for( $row=0; $row < ($max_multiplicand - $min_multiplicand + 2); $row++ ) {
+		  echo '<tr>';
+		  for( $column=0; $column < ($max_multiplier - $min_multiplier + 2); $column++ ) {
+		    if ( $row == 0 && $column == 0) {
+			  echo '<td></td>';
+			}
+			elseif ( $row == 0 ) {
+			  echo '<td>' . ($min_multiplier + $column - 1) . '</td>';
+			}
+			elseif ( $column == 0 ) {
+			  echo '<td>' . ($min_multiplicand + $row - 1) . '</td>';
+			}
+			else {
+			  $multiplicand = $min_multiplicand + $row -1;
+			  $multiplier = $min_multiplier + $column -1;
+		      echo '<td>' . ($multiplicand * $multiplier) . '</td>';
+			}
+		  }
+		  echo '</tr>';
+		}
+	  }
     }
 	?>
   </body>
