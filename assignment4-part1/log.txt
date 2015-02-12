@@ -1,5 +1,25 @@
 Assignment 4 Part 1 log
 
 Start: Wed, 4 Feb 2015 20:10:00 -0800
-End: Wed, 4 Feb 20155 21:00:00 -0800
+End: Wed, 4 Feb 2015 21:00:00 -0800
 Tasks: During this period I set up a basic .php file and made a .html file with a form to see if I could link them together.  After 50 minutes I could not, so I posted on the discussion page for the class.
+
+Start: Wed, 11 Feb 2015 13:16:00 -0800
+End: Wed, 11 Feb 2015 14:32:00 -0800
+Tasks: During this time I started my actual multtalbe.php file.  Originally, I had given up and decided to just type in get requests into the URL but eventually, I got lucky and my .html testing file started to work.  During this segment I was able to get all the variables working under the correct parameters.
+
+Start: Wed, 11 Feb 2015 15:01:00 -0800
+End: Wed, 11 Feb 2015 16:13:00 -0800
+Tasks: During this time I got my multtable.php file working and complete.
+
+Start: Wed, 11 Feb 2015 17:25:00 -0800
+End: Wed, 11 Feb 2015 19:30:00 -0800
+Tasks: During this point I started my loopback.php file.  I got it mostly working, but got really hungry so I had to take a break right before finishing it.
+
+Start: Wed, 11 Feb 2015 20:45:00 -0800
+End: Wed, 11 Feb 2015 21:05:00 -0800
+Tasks: Here, I finished loopback.php.  I just had to make the different result for empty requests for POST and add the GET side of things.
+
+Start: Wed, 11 Feb 2015 21:20:00 -0800
+End: Wed, 11 Feb 2015 23:03:00 -0800
+Tasks: During this time I started and completed login.php/content1.php/content2.php.
