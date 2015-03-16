@@ -1,0 +1,59 @@
+.button
+{
+  background-color: #336699;
+  font: font-weight: bold;
+  color: white;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F0F0F0;
+  color: #000033;
+}
+
+#status
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+#statusA
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+#statusB
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+#statusC
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+#red
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+table, td, th
+{
+  border: 1px solid green;
+}
+
+th
+ {
+  background-color: #6699CC;
+  color: white;
+}
+
+td
+{
+  background-color: #CCFFFF;
+}
